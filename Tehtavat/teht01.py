@@ -45,5 +45,5 @@ if kurssien_määrä > 0:
     keskiarvo = arvosanojen_summa / kurssien_määrä
     painotettu_keskiarvo = painotettu_summa / pisteiden_summa
 
-    print(f"Arvosanojen keskiarvo: {keskiarvo:.1f}")
-    print(f"Arvosanojen painotettu keskiarvo: {painotettu_keskiarvo:.1f}")
+    print(f"Arvosanojen keskiarvo: {keskiarvo}")
+    print(f"Arvosanojen painotettu keskiarvo: {painotettu_keskiarvo}")
