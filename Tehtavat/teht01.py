@@ -2,7 +2,6 @@
 # Nimi: Valto Vähäsöyrinki
 # Opiskelijanumero: 2520408
 
-
 kurssitulostus = ""
 kurssien_määrä = 0
 pisteiden_summa = 0
@@ -40,7 +39,7 @@ print("Opintopisteet yhteensä", pisteiden_summa)
 
 if kurssien_määrä > 0:
     print("Suoritetut kurssit:")
-    print(kurssitulostus, end="")
+    print(kurssitulostus[:-1])
 
     keskiarvo = arvosanojen_summa / kurssien_määrä
     painotettu_keskiarvo = painotettu_summa / pisteiden_summa

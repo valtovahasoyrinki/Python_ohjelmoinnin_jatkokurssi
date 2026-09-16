@@ -9,3 +9,11 @@ while(True):
 
 print (summa)
 
+[kaslkdjla]
+(jelwkjseldas)
+f"{syote_input}"
+
+
+
+hlo = {"ika" : 26, "paino" : 81}
+print(hlo["ika"])
